@@ -14,28 +14,16 @@ export const links: Array<{ platform: Platform; link: string }> = [
 	{ platform: Platform.GitHub, link: 'https://github.com/' },
 	{
 		platform: Platform.Linkedin,
-		link: 'https://www.linkedin.com/'
-	},
-	{
-		platform: Platform.Twitter,
-		link: 'https://twitter.com/'
-	},
-	{
-		platform: Platform.StackOverflow,
-		link: 'https://stackoverflow.com/'
+		link: 'https://www.linkedin.com/in/chase-rushton-83abb8163/'
 	},
 	{
 		platform: Platform.Email,
-		link: 'riadh_adrani@hotmail.fr'
+		link: 'chaserushton@gmail.com'
 	},
 	{
 		platform: Platform.Youtube,
-		link: 'https://www.youtube.com'
+		link: 'https://www.youtube.com/@chaserushh'
 	},
-	{
-		platform: Platform.Facebook,
-		link: 'https://www.facebook.com'
-	}
 ];
 
-export const skills = getSkills('js', 'css', 'html', 'reactjs', 'sass', 'svelte', 'ts');
+export const skills = getSkills();
