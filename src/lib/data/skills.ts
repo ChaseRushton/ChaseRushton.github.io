@@ -36,15 +36,6 @@ const defineSkill = <S extends string>(
 
 export const items = [
 	defineSkill({
-		slug: 'cpp',
-		color: 'yellow',
-		description:
-			'Constructed multiple comprehensive repositories from scratch, organizing source files, include files, and executables into well-defined subdirectories to enhance code maintainability and collaboration. Designed and implemented fundamental data structures including stack, queue, priority queue, hash map, linked list, and binary Search tree. Structures were tested to evaluate performance. In a separate advanced programming course, extensively utilized the C++ Standard Library to enhance project complexity and efficiency. Gained proficientcy in high-level object-oriented programming, focusing on class infrastructure, inheritance, and automated configurations to streamline software development processes. Applied knowledge to develope sophisticated quantum chemistry code for CNDO/2 and atomic orbitals analysis, featuring Hartree-Fock methods and potential energy surface mapping.  Implemented custom linear algebra functions and developed matrix vector classes to facilitate complex mathematical operations and simulations. Gained substantial experience in parallelization techniques using OpenMP, MPI, GCC, and CUDA, significantly optimizing code performance across various computing platforms.',
-		logo: Assets.Cpp,
-		name: 'C++',
-		category: 'pro-lang'
-	}),
-	defineSkill({
 		slug: 'python',
 		color: 'blue',
 		description:
