@@ -15,12 +15,12 @@ export const items: Array<Education> = [
 		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'English']
 	},
 	{
-		degree: 'PhD of Computer Science',
+		degree: 'M.S Bioinformatics',
 		description: '',
 		location: 'USA',
 		logo: Assets.Unknown,
 		name: '',
-		organization: 'MIT',
+		organization: 'Auburn University ',
 		period: { from: new Date(2023, 0, 1) },
 		shortDescription: '',
 		slug: 'dummy-education-item-2',
