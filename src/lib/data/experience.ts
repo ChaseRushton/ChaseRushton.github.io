@@ -21,7 +21,7 @@ export const items: Array<Experience> = [
 	{
 		slug: 'Grad-student',
 		company: 'Auburn University',
-		description: 'Graduate student in the Department of Biological Sciences, working on WGS and bioinforamtics',
+		description: 'Graduate student in the Department of Biological Sciences, working on WGS and bioinforamtics.Thesis: “Broad characterization of structural variation and genetic differentiation in two hybridizing macaque species” .Advisor: Dr. Laurie Stevison .Led a side project using the Sequenom iPLEX ADME PGx Panel on the MassARRAY System to genotype polymorphisms in D. pseudoobscura',
 		contract: ContractType.School,
 		type: 'Graduate Education',
 		location: 'Auburn,Alabama',
