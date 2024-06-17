@@ -25,12 +25,12 @@ export const items: Array<Experience> = [
 		contract: ContractType.FullTime,
 		type: 'Graduate Education',
 		location: 'Auburn,Alabama',
-		period: { from: new Date(2016, 0, 1), to: new Date(2018,0,1) },
+		period: { from: new Date(2016, 0, 1), to: new Date(2018,8,1) },
 		skills: getSkills('Python', 'Bash'),
 		name: 'Graduate Student',
 		color: 'green',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.Auburn,
 		shortDescription: 'Graduate student in the Department of Biological Sciences'
 	}
 ];
