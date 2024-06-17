@@ -9,7 +9,6 @@ export const items: Array<Education> = [
 		logo: Assets.Unknown,
 		name: '',
 		organization: 'Auburn University ',
-		period: { from: new Date(2011), to: new Date(2015) },
 		shortDescription: '',
 		slug: 'dummy-education-item',
 		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'English']
@@ -21,7 +20,6 @@ export const items: Array<Education> = [
 		logo: Assets.Unknown,
 		name: '',
 		organization: 'Auburn University ',
-		period: { from: new Date(2023, 0, 1) },
 		shortDescription: '',
 		slug: 'dummy-education-item-2',
 		subjects: ['Assembly', 'Rust', 'Computer Architecture', 'Algorithms and Data structures']
