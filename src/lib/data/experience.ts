@@ -5,18 +5,18 @@ import { ContractType, type Experience } from '../types';
 export const items: Array<Experience> = [
 	{
 		slug: 'open-sourcer',
-		company: 'Self-employed',
-		description: 'Creating awesome tools for developers.',
+		company: 'Univeristy of Pennsylvania Health System',
+		description: '•	Manage current clinical pipelines for over 6,000 patients annually. Develop new cutting-edge pipelines and tools for molecular pathology and oncology. Host and curate a data lake of all pipeline outputs and statistics for research use. Migrated  and curated 11 years of patient information and results to a new LIMS and database. Side Projects:Assisted in creating a targeted cancer panel at the vet school. Contributed to bringing cancer detection and treatments to developing countries in Africa (ICC). Created tutorial videos and informational content for emerging labs (ICC & GOAL).Initial member in the GOAL consortium to unify cancer genomics.',
 		contract: ContractType.FullTime,
-		type: 'Software Development',
+		type: 'Bioinformatics',
 		location: 'Home',
 		period: { from: new Date() },
-		skills: getSkills('ts', 'js'),
-		name: 'Open Source Developer',
+		skills: getSkills('Python', 'AWS'),
+		name: 'Bioinformatics Specialist',
 		color: 'red',
 		links: [],
 		logo: Assets.Unknown,
-		shortDescription: 'Creating awesome tools for developers.'
+		shortDescription: 'Bioinformatics Specialist'
 	},
 	{
 		slug: 'Grad-student',
