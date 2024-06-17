@@ -10,7 +10,7 @@ export const items: Array<Experience> = [
 		contract: ContractType.FullTime,
 		type: 'Bioinformatics',
 		location: 'Home',
-		period: { from: new Date() },
+		period: { from: new Date(2019,0,1),to: new Date() },
 		skills: getSkills('Python', 'AWS'),
 		name: 'Bioinformatics Specialist',
 		color: 'red',
