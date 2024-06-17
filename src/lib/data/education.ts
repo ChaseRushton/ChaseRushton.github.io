@@ -9,9 +9,10 @@ export const items: Array<Education> = [
 		logo: Assets.Unknown,
 		name: '',
 		organization: 'Auburn University ',
+		period: { from: new Date(2011, 8, 1), to: new Date(2015, 8, 1) },
 		shortDescription: '',
-		slug: 'dummy-education-item',
-		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'English']
+		slug: 'Auburn-undergrad-university',
+		subjects: []
 	},
 	{
 		degree: 'M.S Bioinformatics',
@@ -20,9 +21,10 @@ export const items: Array<Education> = [
 		logo: Assets.Unknown,
 		name: '',
 		organization: 'Auburn University ',
+		period: { from: new Date(2016, 8, 1), to: new Date(2018, 8, 1) },
 		shortDescription: '',
-		slug: 'dummy-education-item-2',
-		subjects: ['Assembly', 'Rust', 'Computer Architecture', 'Algorithms and Data structures']
+		slug: 'Auburn-grad-university',
+		subjects: []
 	}
 ];
 
