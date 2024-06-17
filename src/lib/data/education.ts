@@ -8,7 +8,7 @@ export const items: Array<Education> = [
 		location: 'USA',
 		logo: Assets.Unknown,
 		name: '',
-		organization: 'Auburn university ',
+		organization: 'Auburn University ',
 		period: { from: new Date(2011), to: new Date(2015) },
 		shortDescription: '',
 		slug: 'dummy-education-item',
