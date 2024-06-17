@@ -8,7 +8,7 @@ export const name = 'Chase';
 export const lastName = 'Rushton';
 
 export const description =
-	'Welcome to my portfolio website!';
+	'Welcome to my work in progreas portfolio website!';
 
 export const links: Array<{ platform: Platform; link: string }> = [
 	{ platform: Platform.GitHub, link: 'https://github.com/' },
