@@ -19,34 +19,19 @@ export const items: Array<Experience> = [
 		shortDescription: 'Creating awesome tools for developers.'
 	},
 	{
-		slug: 'software-freelance',
-		company: 'Self-employed',
-		description: 'Creating awesome applications for customers.',
-		contract: ContractType.Freelance,
-		type: 'Software Development',
-		location: 'Home',
-		period: { from: new Date() },
-		skills: getSkills('svelte', 'ts', 'sass', 'css', 'html', 'js'),
-		name: 'Freelancer',
-		color: 'blue',
-		links: [],
-		logo: Assets.Unknown,
-		shortDescription: 'Creating awesome applications for customers.'
-	},
-	{
-		slug: 'software-freelance-junior',
-		company: 'Self-employed',
-		description: 'Creating awesome applications for customers.',
-		contract: ContractType.Freelance,
-		type: 'Software Development',
-		location: 'Home',
-		period: { from: new Date(2022, 0, 1), to: new Date() },
-		skills: getSkills('css', 'html', 'js'),
-		name: 'Junior Freelancer',
+		slug: 'Grad-student',
+		company: 'Auburn University',
+		description: 'Graduate student in the Department of Biological Sciences, working on WGS and bioinforamtics',
+		contract: ContractType.School,
+		type: 'Graduate Education',
+		location: 'Auburn,Alabama',
+		period: { from: new Date(2016, 0, 1), to: new Date(2018,0,1) },
+		skills: getSkills('Python', 'Bash'),
+		name: 'Graduate Student',
 		color: 'green',
 		links: [],
 		logo: Assets.Unknown,
-		shortDescription: 'Creating awesome applications for customers.'
+		shortDescription: 'Graduate student in the Department of Biological Sciences'
 	}
 ];
 
